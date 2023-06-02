@@ -1,7 +1,5 @@
 package com.mat.zip.boss.model;
 
-import java.util.Date;
-
 public class ChartVO {
 
 	private String date;

@@ -3,12 +3,8 @@ package com.mat.zip.board;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.mat.zip.registerAndSearch.model.MZRegisterInfoVO;
 
 @Service
 public class ReviewServiceImpl implements ReviewService {

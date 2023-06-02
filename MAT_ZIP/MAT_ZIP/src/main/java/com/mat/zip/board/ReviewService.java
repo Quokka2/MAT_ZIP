@@ -2,8 +2,6 @@ package com.mat.zip.board;
 
 import java.util.List;
 
-import com.mat.zip.registerAndSearch.model.MZRegisterInfoVO;
-
 public interface ReviewService {
 	
 	public int insertReview(ReviewVO vo);

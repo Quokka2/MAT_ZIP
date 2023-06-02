@@ -231,6 +231,7 @@ public class MzMemberserviceImpl implements MzMemberService {
 		dao.updateInfo(dto);
 	}
 	
+	@Override
 	public void changeTemPw(String email, MzMemberDTO dto) throws Exception {
 		dto.setUser_id(email);
 		

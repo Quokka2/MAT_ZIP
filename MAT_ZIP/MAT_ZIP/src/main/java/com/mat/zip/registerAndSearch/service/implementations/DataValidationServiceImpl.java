@@ -4,11 +4,9 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import org.apache.catalina.tribes.membership.MemberImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mat.zip.mzMember.model.MzMemberDTO;
 import com.mat.zip.point.model.PointSaveHistoryVO;
 import com.mat.zip.point.service.PointSaveHistoryServiceImpl;
 import com.mat.zip.registerAndSearch.dao.MZRegisterInfoDAO;
